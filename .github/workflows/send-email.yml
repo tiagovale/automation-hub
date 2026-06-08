@@ -23,4 +23,4 @@ jobs:
           EMAIL: ${{ secrets.EMAIL }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
-        run: python /alerts/send_email.py
+        run: python alerts/send_email.py
